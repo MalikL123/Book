@@ -1,0 +1,22 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro  # Set the introduction file as the root
+parts:
+
+- caption: Differential Equations
+  chapters: 
+    - file: Linear Systems/Differential_equations
+
+- caption: Linear Systems
+  chapters:
+    - file: Linear Systems/Numerical_integration_2
+      sections:
+        - file: Linear Systems/Linear_systems_1
+        - file: Linear Systems/Linear_systems_2
+        - file: Linear Systems/Linear_systems_3
+
+- caption: Curve Fit
+  chapters:
+    - file: Linear Systems/Curve_fit
